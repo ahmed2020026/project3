@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 
-<body>
+<body class="overflow-x-hidden">
     <!-- شريط التنقل -->
     <header class="shadow bg-white position-fixed w-100 top-0" style="z-index: 200;">
         <div class="container">
@@ -365,25 +365,25 @@
         <!-- Menu Section -->
         <section class="bg-white">
             <div class="container p-0 py-5">
-                <div class="container">
+                <div class="container p-0">
                     <ul class="nav nav-tabs d-flex justify-content-center border-0">
                         <li class="nav-item small">
                             <a class="nav-link border-0 font-weight-bold head_title active " data-bs-toggle="tab"
-                                href="#home">أطعمه</a>
+                                href="#home">Foods</a>
                         </li>
                         <li class="nav-item small">
                             <a class="nav-link border-0 font-weight-bold head_title" data-bs-toggle="tab"
-                                href="#menu1">مشروبات</a>
+                                href="#menu1">Drinks</a>
                         </li>
                         <li class="nav-item small">
                             <a class="nav-link border-0 font-weight-bold head_title" data-bs-toggle="tab"
-                                href="#menu2">حلويات</a>
+                                href="#menu2">Sweats</a>
                         </li>
                     </ul>
 
                     <div class="tab-content mt-2">
-                        <div class="tab-pane container active" id="home">
-                            <div class="card_product d-flex flex-wrap justify-content-around align-content-around">
+                        <div class="tab-pane container p-0 active" id="home">
+                            <div class="card_product p-0 d-flex flex-wrap justify-content-around align-content-around">
                                 <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/beef Steak.jpg" alt="" class="card-img-top">
                                     <div class="card-body">
@@ -780,6 +780,218 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Thanks Section -->
+        <section class="py-5 bg-body-secondary">
+            <div class="container p-0">
+                <h2 class="text-center mb-5">Thanks..</h2>
+                <div class="row gap-2 justify-content-center p-0 align-items-start text-white">
+                    <div class="col p-3">
+                        <div class="card rounded-4 overflow-hidden thanks position-relative cursor-pointer mx-auto"
+                            style="width:300px; height: 400px; cursor: pointer;">
+                            <img class="card-img-top pe-none" src="./image/images (1).jpg" alt="Card image"
+                                style="max-height: 100%;max-width: 100%;">
+                            <div class="card-img-overlay text-white top-50 z-2">
+                                <img src="./image/images (1).jpg" class="rounded-5 z-2" alt="" width="75px"
+                                    height="100px">
+                                <p class="card-text mb-0">Front-End Developer</p>
+                                <p class="card-text mb-0">Thanks And Apprecation</p>
+                                <p class="fst-italic mt-0 text-secondary">25 Sep 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col p-3">
+                        <div class="card rounded-4 overflow-hidden thanks position-relative cursor-pointer mx-auto"
+                            style="width:300px; height: 400px; cursor: pointer;">
+                            <img class="card-img-top pe-none" src="./image/images (2).jpg" alt="Card image"
+                                style="max-height: 100%;max-width: 100%;">
+                            <div class="card-img-overlay text-white top-50 z-2">
+                                <img src="./image/images (2).jpg" class="rounded-5 z-2" alt="" width="75px"
+                                    height="100px">
+                                <p class="card-text mb-0">Back-End Developer</p>
+                                <p class="card-text mb-0">Thanks And Apprecation</p>
+                                <p class="fst-italic mt-0 text-secondary">25 Sep 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col p-3">
+                        <div class="card rounded-4 overflow-hidden thanks position-relative cursor-pointer mx-auto"
+                            style="width:300px; height: 400px; cursor: pointer;">
+                            <img class="card-img-top pe-none" src="./image/images.jpg" alt="Card image"
+                                style="max-height: 100%;max-width: 100%;">
+                            <div class="card-img-overlay text-white top-50 z-2">
+                                <img src="./image/images.jpg" class="rounded-5 z-2" alt="" width="75px" height="100px">
+                                <p class="card-text mb-0">Full Stack Developer</p>
+                                <p class="card-text mb-0">Thanks And Apprecation</p>
+                                <p class="fst-italic mt-0 text-secondary">25 Sep 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- podcast title -->
+        <section class="py-5">
+            <div class="container">
+                <div class="podcast w-100 shadow py-2 px-2 rounded-2 row bg-white mb-4 mx-auto">
+                    <div class="content order-2 order-md-1 px-3 col-md-7 d-flex flex-column justify-content-between">
+                        <div class="intro">
+                            <div class="title position-relative py-2 head mb-2">
+                                <i class="fs-4 fw-bolder">Podcast Title</i>
+                                <br>
+                                <small>Mon, 25<sup>th</sup> May 2025</small>
+                            </div>
+                            <div class="main">
+                                <p>Pizza is one of the most beloved and iconic foods in the world, originally from Italy
+                                    but now enjoyed in every
+                                    corner of
+                                    the globe. It starts with a freshly baked crust, which can be thin and crispy or
+                                    thick and fluffy, depending on
+                                    the
+                                    style. On top of the crust comes a layer of rich tomato sauce, seasoned with herbs
+                                    like oregano and basil,
+                                    followed by
+                                    generous amounts of melted cheese that create a gooey, flavorful base.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="foot d-flex gap-2 mb-2 flex-column flex-md-row">
+                            <button
+                                class="btn btn-sm btn-danger d-flex align-items-center justify-content-center gap-2">
+                                <i class="fa-solid fa-microphone"></i> Podecast
+                            </button>
+                            <span
+                                class="bg-danger d-flex p-1 px-2 rounded-2 justify-content-center align-items-center text-muted gap-2">
+                                <i class="fa-solid fa-clock"></i> 43 min
+                            </span>
+                            <button
+                                class="btn btn-sm btn-danger d-flex align-items-center justify-content-center gap-2">
+                                <i class="fa-solid fa-play"></i>Play Episode
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-5 order-1 order-md-2 p-0 position-relative podCost-image overflow-hidden">
+                        <img src="./image/pizza.jpg" alt="" style="max-width: 100%;height: 350px;">
+                    </div>
+                </div>
+                <div class="podcast w-100 shadow py-2 px-2 rounded-2 row bg-white mb-4 mx-auto flex-row-reverse">
+                    <div class="content order-2 order-md-1 px-3 col-md-7 d-flex flex-column justify-content-between">
+                        <div class="intro">
+                            <div class="title position-relative py-2 head mb-2">
+                                <i class="fs-4 fw-bolder">Podcast Title</i>
+                                <br>
+                                <small>Mon, 25<sup>th</sup> May 2025</small>
+                            </div>
+                            <div class="main">
+                                <p>Pizza is one of the most beloved and iconic foods in the world, originally from Italy
+                                    but now enjoyed in every
+                                    corner of
+                                    the globe. It starts with a freshly baked crust, which can be thin and crispy or
+                                    thick and fluffy, depending on
+                                    the
+                                    style. On top of the crust comes a layer of rich tomato sauce, seasoned with herbs
+                                    like oregano and basil,
+                                    followed by
+                                    generous amounts of melted cheese that create a gooey, flavorful base.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="foot d-flex gap-2 mb-2 flex-column flex-md-row">
+                            <button
+                                class="btn btn-sm btn-danger d-flex align-items-center justify-content-center gap-2">
+                                <i class="fa-solid fa-microphone"></i> Podecast
+                            </button>
+                            <span
+                                class="bg-danger d-flex p-1 px-2 rounded-2 justify-content-center align-items-center text-muted gap-2">
+                                <i class="fa-solid fa-clock"></i> 43 min
+                            </span>
+                            <button
+                                class="btn btn-sm btn-danger d-flex align-items-center justify-content-center gap-2">
+                                <i class="fa-solid fa-play"></i>Play Episode
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-5 order-1 order-md-2 p-0 position-relative reverse overflow-hidden">
+                        <img src="./image/pizza.jpg" alt="" style="max-width: 100%;height: 350px;">
+                    </div>
+                </div>
+                <div class="podcast w-100 shadow py-2 px-2 rounded-2 mx-auto row bg-white">
+                    <div class="content order-2 order-md-1 px-3 col-md-7 d-flex flex-column justify-content-between">
+                        <div class="intro">
+                            <div class="title position-relative py-2 head mb-2">
+                                <i class="fs-4 fw-bolder">Podcast Title</i>
+                                <br>
+                                <small>Mon, 25<sup>th</sup> May 2025</small>
+                            </div>
+                            <div class="main">
+                                <p>Pizza is one of the most beloved and iconic foods in the world, originally from Italy
+                                    but now enjoyed in every
+                                    corner of
+                                    the globe. It starts with a freshly baked crust, which can be thin and crispy or
+                                    thick and fluffy, depending on
+                                    the
+                                    style. On top of the crust comes a layer of rich tomato sauce, seasoned with herbs
+                                    like oregano and basil,
+                                    followed by
+                                    generous amounts of melted cheese that create a gooey, flavorful base.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="foot d-flex gap-2 mb-2 flex-column flex-md-row">
+                            <button
+                                class="btn btn-sm btn-danger d-flex align-items-center justify-content-center gap-2">
+                                <i class="fa-solid fa-microphone"></i> Podecast
+                            </button>
+                            <span
+                                class="bg-danger d-flex p-1 px-2 rounded-2 justify-content-center align-items-center text-muted gap-2">
+                                <i class="fa-solid fa-clock"></i> 43 min
+                            </span>
+                            <button
+                                class="btn btn-sm btn-danger d-flex align-items-center justify-content-center gap-2">
+                                <i class="fa-solid fa-play"></i>Play Episode
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-5 order-1 order-md-2 p-0 position-relative podCost-image overflow-hidden">
+                        <img src="./image/pizza.jpg" alt="" style="max-width: 100%;height: 350px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- links Subscripion -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-3 text-center mb-4">
+                        <button class="btn w-100 btn-lg mx-auto fs-1 border overflow-hidden btn-social position-relative"
+                            style="height: 86px;width: 86px;--color:#0d6efd">
+                            <i class="fab fa-facebook d-block"></i>
+                        </button>
+                    </div>
+                    <div class="col-6 col-md-3 text-center mb-4">
+                        <button class="btn w-100 btn-lg mx-auto fs-1 border overflow-hidden btn-social position-relative"
+                            style="height: 86px;width: 86px;--color:#d63384">
+                            <i class="fab fa-instagram d-block"></i>
+                        </button>
+                    </div>
+                    <div class="col-6 col-md-3 text-center mb-4">
+                        <button class="btn w-100 btn-lg mx-auto fs-1 border overflow-hidden btn-social position-relative"
+                            style="height: 86px;width: 86px;--color:#0dcaf0">
+                            <i class="fab fa-twitter d-block"></i>
+                        </button>
+                    </div>
+                    <div class="col-6 col-md-3 text-center mb-4">
+                        <button
+                            class="btn w-100 btn-lg fs-1 mx-auto text-center border overflow-hidden btn-social position-relative"
+                            style="height: 86px;width: 86px;--color:#198754">
+                            <i class="fab fa-whatsapp d-block"></i>
+                        </button>
                     </div>
                 </div>
             </div>
