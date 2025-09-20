@@ -88,68 +88,76 @@
     <!-- main Content -->
     <main>
         <!-- Carousel Section -->
-        <section class="d-flex align-items-center py-5">
+        <section class="d-flex align-items-center py-5 bg-light">
             <div class="container">
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                    <div class="p-2 mt-5">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active text-center" data-bs-interval="10000">
-                                <div class="position-relative text-center mb-5 d-flex align-items-center justify-content-center"
-                                    style="min-height: 50vh;">
-                                    <img src="./image/slice1.png" class="d-block mx-auto img-fluid" alt="Burger">
-                                </div>
-                                <div>
-                                    <h2>Burger</h2>
-                                    <p class="text-capitalize">We had such a great time with That Burger! Juicy and
-                                        perfect</p>
-                                    <a href="#" class="btn btn-danger btn-custom">Call US</a>
-                                </div>
+        
+                    <div class="carousel-inner">
+        
+                        <!-- Burger -->
+                        <div class="carousel-item active text-center" data-bs-interval="5000">
+                            <div class="carousel-img-wrapper">
+                                <img src="./image/slice1.png" class="d-block mx-auto img-fluid" alt="Burger">
                             </div>
-                            <div class="carousel-item text-center" data-bs-interval="10000">
-                                <div class="position-relative text-center mb-5 d-flex align-items-center justify-content-center"
-                                    style="min-height: 50vh;">
-                                    <img src="./image/slice2.png" class="d-block mx-auto img-fluid" alt="Pizza">
-                                </div>
-                                <div>
-                                    <h2>Pizza</h2>
-                                    <p class="text-capitalize">That Pizza was absolutely amazing! We Couldn't Get Enough
-                                    </p>
-                                    <a href="#" class="btn btn-danger btn-custom">Call US</a>
-                                </div>
-                            </div>
-                            <div class="carousel-item text-center" data-bs-interval="10000">
-                                <div class="position-relative text-center mb-5 d-flex align-items-center justify-content-center"
-                                    style="min-height: 50vh;">
-                                    <img src="./image/slice3.png" class="d-block mx-auto img-fluid" alt="Chicken">
-                                </div>
-                                <div>
-                                    <h2>Chicken</h2>
-                                    <p class="text-capitalize">The fried chicken is crispy on the outside and soft
-                                        inside.</p>
-                                    <a href="#" class="btn btn-danger btn-custom">Call US</a>
-                                </div>
-                            </div>
-                            <div class="carousel-item text-center" data-bs-interval="10000">
-                                <div class="position-relative text-center mb-5 d-flex align-items-center justify-content-center"
-                                    style="min-height: 50vh;">
-                                    <img src="./image/slice4.png" class="d-block mx-auto img-fluid" alt="Salad">
-                                </div>
-                                <div>
-                                    <h2>Salad</h2>
-                                    <p class="text-capitalize">It has a perfect balance of tangy and salty flavors.</p>
-                                    <a href="#" class="btn btn-danger btn-custom">Call US</a>
-                                </div>
+                            <div class="carousel-caption-custom">
+                                <h2 class="fw-bold">Burger</h2>
+                                <p class="text-muted">We had such a great time with that burger! Juicy and perfect.</p>
+                                <a href="#" class="btn btn-danger btn px-4">Call Us</a>
                             </div>
                         </div>
+        
+                        <!-- Pizza -->
+                        <div class="carousel-item text-center" data-bs-interval="5000">
+                            <div class="carousel-img-wrapper">
+                                <img src="./image/slice2.png" class="d-block mx-auto img-fluid" alt="Pizza">
+                            </div>
+                            <div class="carousel-caption-custom">
+                                <h2 class="fw-bold">Pizza</h2>
+                                <p class="text-muted">That pizza was absolutely amazing! We couldn't get enough.</p>
+                                <a href="#" class="btn btn-danger btn px-4">Call Us</a>
+                            </div>
+                        </div>
+        
+                        <!-- Chicken -->
+                        <div class="carousel-item text-center" data-bs-interval="5000">
+                            <div class="carousel-img-wrapper">
+                                <img src="./image/slice3.png" class="d-block mx-auto img-fluid" alt="Chicken">
+                            </div>
+                            <div class="carousel-caption-custom">
+                                <h2 class="fw-bold">Chicken</h2>
+                                <p class="text-muted">The fried chicken is crispy on the outside and soft inside.</p>
+                                <a href="#" class="btn btn-danger btn px-4">Call Us</a>
+                            </div>
+                        </div>
+        
+                        <!-- Salad -->
+                        <div class="carousel-item text-center" data-bs-interval="5000">
+                            <div class="carousel-img-wrapper">
+                                <img src="./image/slice4.png" class="d-block mx-auto img-fluid" alt="Salad">
+                            </div>
+                            <div class="carousel-caption-custom">
+                                <h2 class="fw-bold">Salad</h2>
+                                <p class="text-muted">It has a perfect balance of tangy and salty flavors.</p>
+                                <a href="#" class="btn btn-danger btn px-4">Call Us</a>
+                            </div>
+                        </div>
+        
                     </div>
-                    <button class="carousel-control-prev" style="width: 50px;" type="button"
-                        data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                        <i class="fa-solid fa-angle-left text-dark"></i>
+        
+                    <!-- Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-icon">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </span>
                     </button>
-                    <button class="carousel-control-next" style="width: 50px;" type="button"
-                        data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                        <i class="fa-solid fa-chevron-right text-dark"></i>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-icon">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </span>
                     </button>
+        
                 </div>
             </div>
         </section>
@@ -157,210 +165,220 @@
         <!-- Welcome Section -->
         <section class="pt-5 pb-5 bg-secondary-subtle">
             <div class="container pt-5 p-0">
-                <div class="shadow-sm p-4 rounded-2 bg-light">
-                    <h2>Welcome</h2>
-                    <p class="text-muted">Welcome to our restaurant, where every guest is treated like family. We take
-                        pride in serving fresh, flavorful
-                        dishes
-                        made with love and care. Sit back, relax, and enjoy a warm atmosphere filled with delicious
-                        aromas. Your
-                        unforgettable
-                        dining experience starts here.</p>
-                    <a href="#" class="btn btn-danger btn-custom">Learn More</a>
+        
+                <!-- Welcome Box -->
+                <div class="shadow-sm p-5 rounded-3 bg-light mb-4 text-center">
+                    <h2 class="fw-bold mb-3">Welcome</h2>
+                    <p class="text-muted mb-4">
+                        Welcome to our restaurant, where every guest is treated like family.
+                        We take pride in serving fresh, flavorful dishes made with love and care.
+                        Sit back, relax, and enjoy a warm atmosphere filled with delicious aromas.
+                        Your unforgettable dining experience starts here.
+                    </p>
+                    <a href="#" class="btn btn-danger btn px-4">Learn More</a>
                 </div>
-                <br>
-                <div class="shadow-sm p-4 rounded-2 bg-light py-5">
-                    <h2 class="text-center text-capitalize">The Most Famous Dishes in Our restaurant</h2>
+        
+                <!-- Famous Dishes Title -->
+                <div class="shadow-sm p-5 rounded-3 bg-light mb-4 text-center">
+                    <h2 class="fw-bold text-capitalize">The Most Famous Dishes in Our Restaurant</h2>
                 </div>
-                <br>
-                <div class="shadow-sm p-4 rounded-2 bg-light py-5">
+        
+                <!-- Accordion Section -->
+                <div class="shadow-sm p-4 rounded-3 bg-light">
                     <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
+        
+                        <!-- Fried Chicken -->
+                        <div class="accordion-item mb-2 border rounded-2 overflow-hidden">
                             <h2 class="accordion-header">
-                                <button class="accordion-button collapsed shadow-none bg-white border-bottom"
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                    aria-expanded="false" aria-controls="collapseTwo">
-                                    fried Chicken
+                                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne">
+                                    Fried Chicken
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse shadow-none bg-white border-bottom"
-                                data-bs-parent="#accordionExample">
+                            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>“Our fried chicken is golden and crispy on the outside, yet tender and juicy on
-                                        the inside. Each bite bursts with savory
-                                        flavor, seasoned to perfection and cooked until it reaches a mouthwatering
-                                        crunch. It’s comfort food at its very best —
-                                        warm, satisfying, and irresistibly delicious.”</p>
+                                    <p>
+                                        Our fried chicken is golden and crispy on the outside, yet tender and juicy on the
+                                        inside.
+                                        Each bite bursts with savory flavor, seasoned to perfection and cooked until it reaches
+                                        a mouthwatering crunch.
+                                        It’s comfort food at its very best — warm, satisfying, and irresistibly delicious.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+        
+                        <!-- Salads -->
+                        <div class="accordion-item mb-2 border rounded-2 overflow-hidden">
                             <h2 class="accordion-header">
-                                <button class="accordion-button collapsed shadow-none bg-white border-bottom"
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                    aria-expanded="false" aria-controls="collapseTwo">
-                                    Types Salad
+                                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo">
+                                    Types of Salads
                                 </button>
                             </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>“Our salads are prepared fresh every day, combining crisp vegetables, rich
-                                        dressings, and the perfect balance of
-                                        flavors. From light and refreshing options to hearty choices with chicken or
-                                        pasta, each salad is made to satisfy your
-                                        taste while keeping it healthy and delicious. Whether you prefer classic
-                                        favorites like Caesar and Greek, or something
-                                        colorful like a garden or fruit mix, our salads are always served fresh,
-                                        flavorful, and full of goodness.”</p>
+                                    <p>
+                                        Our salads are prepared fresh every day, combining crisp vegetables, rich dressings, and
+                                        the perfect balance of flavors.
+                                        From light and refreshing options to hearty choices with chicken or pasta, each salad is
+                                        made to satisfy your taste while keeping it healthy and delicious.
+                                        Whether you prefer classics like Caesar and Greek, or colorful mixes with fruits and
+                                        veggies — our salads are always fresh, flavorful, and full of goodness.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+        
+                        <!-- Pizza -->
+                        <div class="accordion-item border rounded-2 overflow-hidden">
                             <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Types Pizza
+                                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree">
+                                    Types of Pizza
                                 </button>
                             </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>“Our pizzas are crafted with a perfect blend of soft dough, rich tomato sauce,
-                                        and melted cheese, baked to golden
-                                        perfection. From classic flavors like Margherita and Pepperoni to creative
-                                        choices with chicken, seafood, or fresh
-                                        vegetables, every pizza is made to satisfy every craving. Whether you love it
-                                        simple or loaded with toppings, our pizzas
-                                        bring you the perfect mix of taste, freshness, and comfort in every slice.”</p>
+                                    <p>
+                                        Our pizzas are crafted with a perfect blend of soft dough, rich tomato sauce, and melted
+                                        cheese, baked to golden perfection.
+                                        From classics like Margherita and Pepperoni to creative choices with chicken, seafood,
+                                        or fresh veggies, every pizza is made to satisfy every craving.
+                                        Whether you love it simple or fully loaded with toppings, our pizzas deliver taste,
+                                        freshness, and comfort in every slice.
+                                    </p>
                                 </div>
                             </div>
                         </div>
+        
                     </div>
                 </div>
+        
             </div>
         </section>
 
         <!-- Translation Section -->
         <section class="py-5">
-            <div class="container mt-5 shadow-sm bg-white rounded-3 p-3">
-                <div class="">
+            <div class="container">
+        
+                <!-- Arabic to English -->
+                <div class="mt-5 shadow-sm bg-white rounded-3 p-3">
                     <h2 class="text-center">Translate From Arabic to English</h2>
-                </div>
-                <div class="mt-5 rounded-3">
-                    <h3 class="fs-5 text-muted">Write and Translate Press here</h3>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-danger d-block" data-bs-toggle="modal"
-                        data-bs-target="#example">
-                        Copy
-                    </button>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="example" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title text-danger fs-5" id="exampleModalLabel">Restaurant</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    Message Copied
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Ok</button>
+                    <div class="mt-5 rounded-3">
+                        <h3 class="fs-5 text-muted">Write and Translate Press here</h3>
+        
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger d-block" data-bs-toggle="modal"
+                            data-bs-target="#modalEnglish">
+                            Copy
+                        </button>
+        
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalEnglish" tabindex="-1" aria-labelledby="modalEnglishLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title text-danger fs-5" id="modalEnglishLabel">Restaurant</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">Message Copied</div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Ok</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+        
+                        <!-- form -->
+                        <br>
+                        <label for="translateEnglish">Translate:</label>
+                        <textarea class="form-control mt-1" id="translateEnglish" name="translateEnglish"
+                            placeholder="Enter Message"></textarea>
                     </div>
-
-                    <!-- form -->
-                    <br>
-                    <label for="Translate mt-5">Translate:</label>
-                    <textarea class="form-control mt-1" id="Translate" name="Translate"
-                        placeholder="Enter Message"></textarea>
                 </div>
-            </div>
-            <div class="container mt-5 shadow-sm bg-white rounded-3 p-3">
-                <div class="">
+        
+                <!-- Arabic to French -->
+                <div class="mt-5 shadow-sm bg-white rounded-3 p-3">
                     <h2 class="text-center">Translate From Arabic to French</h2>
-                </div>
-                <div class="mt-5 rounded-3">
-                    <h3 class="fs-5 text-muted">Write and Translate Press here</h3>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-danger d-block" data-bs-toggle="modal"
-                        data-bs-target="#example">
-                        Copy
-                    </button>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="example" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title text-danger fs-5" id="exampleModalLabel">Restaurant</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    Message Copied
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">OK</button>
+                    <div class="mt-5 rounded-3">
+                        <h3 class="fs-5 text-muted">Write and Translate Press here</h3>
+        
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger d-block" data-bs-toggle="modal"
+                            data-bs-target="#modalFrench">
+                            Copy
+                        </button>
+        
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalFrench" tabindex="-1" aria-labelledby="modalFrenchLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title text-danger fs-5" id="modalFrenchLabel">Restaurant</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">Message Copied</div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Ok</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+        
+                        <!-- form -->
+                        <br>
+                        <label for="translateFrench">Translate:</label>
+                        <textarea class="form-control mt-1" id="translateFrench" name="translateFrench"
+                            placeholder="Enter Message"></textarea>
                     </div>
-
-                    <!-- form -->
-                    <br>
-                    <label for="Translate mt-5">Translate:</label>
-                    <textarea class="form-control mt-1" id="Translate" name="Translate"
-                        placeholder="Enter Message"></textarea>
                 </div>
-            </div>
-            <div class="container mt-5 shadow-sm bg-white rounded-3 p-3">
-                <div class="">
+        
+                <!-- Arabic to German -->
+                <div class="mt-5 shadow-sm bg-white rounded-3 p-3">
                     <h2 class="text-center">Translate From Arabic to German</h2>
-                </div>
-                <div class="mt-5 rounded-3">
-                    <h3 class="fs-5 text-muted">Write and Translate Press here</h3>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-danger d-block" data-bs-toggle="modal"
-                        data-bs-target="#example">
-                        Copy
-                    </button>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="example" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title text-danger fs-5" id="exampleModalLabel">Restaurant</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    Message Copied
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">OK</button>
+                    <div class="mt-5 rounded-3">
+                        <h3 class="fs-5 text-muted">Write and Translate Press here</h3>
+        
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger d-block" data-bs-toggle="modal"
+                            data-bs-target="#modalGerman">
+                            Copy
+                        </button>
+        
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalGerman" tabindex="-1" aria-labelledby="modalGermanLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title text-danger fs-5" id="modalGermanLabel">Restaurant</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">Message Copied</div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Ok</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+        
+                        <!-- form -->
+                        <br>
+                        <label for="translateGerman">Translate:</label>
+                        <textarea class="form-control mt-1" id="translateGerman" name="translateGerman"
+                            placeholder="Enter Message"></textarea>
                     </div>
-
-                    <!-- form -->
-                    <br>
-                    <label for="Translate mt-5">Translate:</label>
-                    <textarea class="form-control mt-1" id="Translate" name="Translate"
-                        placeholder="Enter Message"></textarea>
                 </div>
+        
             </div>
         </section>
+
 
         <!-- Menu Section -->
         <section class="bg-white">
@@ -965,53 +983,86 @@
         </section>
 
         <!-- links Subscripion -->
-        <section class="py-5">
+        <section class="py-5 bg-light">
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-center">
+        
+                    <!-- Facebook -->
                     <div class="col-6 col-md-3 text-center mb-4">
-                        <button class="btn w-100 btn-lg mx-auto fs-1 border overflow-hidden btn-social position-relative"
-                            style="height: 86px;width: 86px;--color:#0d6efd">
-                            <i class="fab fa-facebook d-block"></i>
+                        <button class="btn btn-social" style="--color:#0d6efd">
+                            <i class="fab fa-facebook-f"></i>
                         </button>
                     </div>
+        
+                    <!-- Instagram -->
                     <div class="col-6 col-md-3 text-center mb-4">
-                        <button class="btn w-100 btn-lg mx-auto fs-1 border overflow-hidden btn-social position-relative"
-                            style="height: 86px;width: 86px;--color:#d63384">
-                            <i class="fab fa-instagram d-block"></i>
+                        <button class="btn btn-social" style="--color:#d63384">
+                            <i class="fab fa-instagram"></i>
                         </button>
                     </div>
+        
+                    <!-- Twitter -->
                     <div class="col-6 col-md-3 text-center mb-4">
-                        <button class="btn w-100 btn-lg mx-auto fs-1 border overflow-hidden btn-social position-relative"
-                            style="height: 86px;width: 86px;--color:#0dcaf0">
-                            <i class="fab fa-twitter d-block"></i>
+                        <button class="btn btn-social" style="--color:#0dcaf0">
+                            <i class="fab fa-twitter"></i>
                         </button>
                     </div>
+        
+                    <!-- WhatsApp -->
                     <div class="col-6 col-md-3 text-center mb-4">
-                        <button
-                            class="btn w-100 btn-lg fs-1 mx-auto text-center border overflow-hidden btn-social position-relative"
-                            style="height: 86px;width: 86px;--color:#198754">
-                            <i class="fab fa-whatsapp d-block"></i>
+                        <button class="btn btn-social" style="--color:#198754">
+                            <i class="fab fa-whatsapp"></i>
                         </button>
                     </div>
+        
                 </div>
             </div>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer class="text-center">
+    <footer class="bg-dark text-light pt-5 pb-3">
         <div class="container">
-            <h3 class="mb-4">Urban Bite</h3>
-            <p>نقدم لكم أطيب المأكولات والمشروبات بأعلى معايير الجودة</p>
-            <div class="social-icons mb-4">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <div class="row">
+    
+                <!-- About -->
+                <div class="col-md-4 mb-4">
+                    <h4 class="fw-bold text-white mb-3">Urban Bite</h4>
+                    <p class="small">
+                        A unique dining experience that blends global flavors with a modern atmosphere.
+                        We serve fresh and delicious meals every day.
+                    </p>
+                </div>
+    
+                <!-- Quick Links -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-semibold text-white mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none d-block mb-2">Home</a></li>
+                        <li><a href="#" class="text-light text-decoration-none d-block mb-2">Menu</a></li>
+                        <li><a href="#" class="text-light text-decoration-none d-block mb-2">About Us</a></li>
+                        <li><a href="#" class="text-light text-decoration-none d-block mb-2">Contact</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Contact Info -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-semibold text-white mb-3">Contact Us</h5>
+                    <ul class="list-unstyled small">
+                        <li>📍 Cairo, Egypt</li>
+                        <li>📞 +20 111 222 333</li>
+                        <li>✉️ info@urbanbite.com</li>
+                    </ul>
+                </div>
             </div>
-            <p>&copy; 2023 Urban Bite. جميع الحقوق محفوظة</p>
+    
+            <!-- Bottom -->
+            <div class="text-center border-top border-secondary pt-3 mt-3 small text-light">
+                © 2025 Urban Bite. All rights reserved.
+            </div>
         </div>
     </footer>
+
 
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
