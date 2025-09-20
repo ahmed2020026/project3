@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Shopport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Urban Bite</title>
     <script src="https://kit.fontawesome.com/797ff12fbb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/index.css">
 </head>
 
-<body class="bg-light">
-    <header class="shadow bg-white mb-5 position-fixed w-100" style="z-index: 200;">
+<body>
+    <!-- شريط التنقل -->
+    <header class="shadow bg-white position-fixed w-100 top-0" style="z-index: 200;">
         <div class="container">
             <div class="navbar navbar-expand-lg">
                 <a href="#" class="navbar-brand fw-bold text-capitalize text-danger">Urban Bite</a>
@@ -53,6 +55,7 @@
             </div>
         </div>
     </header>
+
     <!-- modal -->
     <div class="modal fade" style="top: 100px;" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
@@ -81,75 +84,77 @@
             </div>
         </div>
     </div>
+
     <!-- main Content -->
     <main>
-        <section class="d-flex align-items-center">
-            <div class="container" style="min-height: 80vh;">
+        <!-- Carousel Section -->
+        <section class="d-flex align-items-center py-5">
+            <div class="container">
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="p-2 mt-5">
                         <div class="carousel-inner">
                             <div class="carousel-item active text-center" data-bs-interval="10000">
                                 <div class="position-relative text-center mb-5 d-flex align-items-center justify-content-center"
                                     style="min-height: 50vh;">
-                                    <img src="./image/slice1.png" class="d-block mx-auto" alt="...">
+                                    <img src="./image/slice1.png" class="d-block mx-auto img-fluid" alt="Burger">
                                 </div>
                                 <div>
                                     <h2>Burger</h2>
                                     <p class="text-capitalize">We had such a great time with That Burger! Juicy and
                                         perfect</p>
-                                    <a href="#" class="btn btn-danger">Call US</a>
+                                    <a href="#" class="btn btn-danger btn-custom">Call US</a>
                                 </div>
                             </div>
                             <div class="carousel-item text-center" data-bs-interval="10000">
                                 <div class="position-relative text-center mb-5 d-flex align-items-center justify-content-center"
                                     style="min-height: 50vh;">
-                                    <img src="./image/slice2.png" class="d-block mx-auto" alt="...">
+                                    <img src="./image/slice2.png" class="d-block mx-auto img-fluid" alt="Pizza">
                                 </div>
                                 <div>
                                     <h2>Pizza</h2>
                                     <p class="text-capitalize">That Pizza was absolutely amazing! We Couldn't Get Enough
                                     </p>
-                                    <a href="#" class="btn btn-danger">Call US</a>
+                                    <a href="#" class="btn btn-danger btn-custom">Call US</a>
                                 </div>
                             </div>
                             <div class="carousel-item text-center" data-bs-interval="10000">
                                 <div class="position-relative text-center mb-5 d-flex align-items-center justify-content-center"
                                     style="min-height: 50vh;">
-                                    <img src="./image/slice3.png" class="d-block mx-auto" alt="...">
+                                    <img src="./image/slice3.png" class="d-block mx-auto img-fluid" alt="Chicken">
                                 </div>
                                 <div>
                                     <h2>Chicken</h2>
                                     <p class="text-capitalize">The fried chicken is crispy on the outside and soft
                                         inside.</p>
-                                    <a href="#" class="btn btn-danger">Call US</a>
+                                    <a href="#" class="btn btn-danger btn-custom">Call US</a>
                                 </div>
                             </div>
                             <div class="carousel-item text-center" data-bs-interval="10000">
                                 <div class="position-relative text-center mb-5 d-flex align-items-center justify-content-center"
                                     style="min-height: 50vh;">
-                                    <img src="./image/slice4.png" class="d-block mx-auto" alt="...">
+                                    <img src="./image/slice4.png" class="d-block mx-auto img-fluid" alt="Salad">
                                 </div>
                                 <div>
                                     <h2>Salad</h2>
                                     <p class="text-capitalize">It has a perfect balance of tangy and salty flavors.</p>
-                                    <a href="#" class="btn btn-danger">Call US</a>
+                                    <a href="#" class="btn btn-danger btn-custom">Call US</a>
                                 </div>
-
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev text-black" style="width: 50px;" type="button"
+                    <button class="carousel-control-prev" style="width: 50px;" type="button"
                         data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                        <i class="fa-solid fa-angle-left"></i>
+                        <i class="fa-solid fa-angle-left text-dark"></i>
                     </button>
-                    <button class="carousel-control-next text-black" style="width: 50px;" type="button"
+                    <button class="carousel-control-next" style="width: 50px;" type="button"
                         data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                        <i class="fa-solid fa-chevron-right"></i>
+                        <i class="fa-solid fa-chevron-right text-dark"></i>
                     </button>
                 </div>
             </div>
         </section>
 
+        <!-- Welcome Section -->
         <section class="pt-5 pb-5 bg-secondary-subtle">
             <div class="container pt-5 p-0">
                 <div class="shadow-sm p-4 rounded-2 bg-light">
@@ -161,7 +166,7 @@
                         aromas. Your
                         unforgettable
                         dining experience starts here.</p>
-                    <a href="#" class="btn btn-danger">Learn More</a>
+                    <a href="#" class="btn btn-danger btn-custom">Learn More</a>
                 </div>
                 <br>
                 <div class="shadow-sm p-4 rounded-2 bg-light py-5">
@@ -236,6 +241,7 @@
             </div>
         </section>
 
+        <!-- Translation Section -->
         <section class="py-5">
             <div class="container mt-5 shadow-sm bg-white rounded-3 p-3">
                 <div class="">
@@ -263,8 +269,7 @@
                                     Message Copied
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger"
-                                        data-bs-dismiss="modal">Ok</button>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Ok</button>
                                 </div>
                             </div>
                         </div>
@@ -303,8 +308,7 @@
                                     Message Copied
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger"
-                                        data-bs-dismiss="modal">OK</button>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">OK</button>
                                 </div>
                             </div>
                         </div>
@@ -343,8 +347,7 @@
                                     Message Copied
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger"
-                                        data-bs-dismiss="modal">OK</button>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">OK</button>
                                 </div>
                             </div>
                         </div>
@@ -359,134 +362,154 @@
             </div>
         </section>
 
+        <!-- Menu Section -->
         <section class="bg-white">
             <div class="container p-0 py-5">
                 <div class="container">
                     <ul class="nav nav-tabs d-flex justify-content-center border-0">
                         <li class="nav-item small">
-                            <a class="nav-link border-0 font-weight-bold head_title active " data-bs-toggle="tab" href="#home">أطعمه</a>
+                            <a class="nav-link border-0 font-weight-bold head_title active " data-bs-toggle="tab"
+                                href="#home">أطعمه</a>
                         </li>
                         <li class="nav-item small">
-                            <a class="nav-link border-0 font-weight-bold head_title" data-bs-toggle="tab" href="#menu1">مشروبات</a>
+                            <a class="nav-link border-0 font-weight-bold head_title" data-bs-toggle="tab"
+                                href="#menu1">مشروبات</a>
                         </li>
                         <li class="nav-item small">
-                            <a class="nav-link border-0 font-weight-bold head_title" data-bs-toggle="tab" href="#menu2">حلويات</a>
+                            <a class="nav-link border-0 font-weight-bold head_title" data-bs-toggle="tab"
+                                href="#menu2">حلويات</a>
                         </li>
                     </ul>
-                
+
                     <div class="tab-content mt-2">
                         <div class="tab-pane container active" id="home">
                             <div class="card_product d-flex flex-wrap justify-content-around align-content-around">
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/beef Steak.jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">Beef Roast</h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">Beef
+                                                        Roast</h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/d1 (8).jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">Grilled Meats</h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">
+                                                        Grilled Meats</h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/d1 (9).jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">grilled meat</h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">
+                                                        grilled meat</h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/d1 (10).jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">Pasta</h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">
+                                                        Pasta</h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/d1 (11).jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">Vegetable Salad</h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">
+                                                        Vegetable Salad</h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/d1 (12).jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;"> Fried Chickens</h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">
+                                                        Fried Chickens</h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/d1 (13).jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">Doner burger</h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">
+                                                        Doner burger</h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/d1 (14).jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">chicken burger</h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">
+                                                        chicken burger</h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
@@ -494,116 +517,132 @@
                         </div>
                         <div class="tab-pane container fade" id="menu1">
                             <div class="card_product d-flex flex-wrap justify-content-around align-content-around">
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/d1 (1).jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">Juice</h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">
+                                                        Juice</h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/d1 (2).jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">Orange Juice</h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">
+                                                        Orange Juice</h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/d1 (3).jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">blender fruits</h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">
+                                                        blender fruits</h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/d1 (4).jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">Juice</h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">
+                                                        Juice</h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/d1 (5).jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">Pomeranian juice
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">
+                                                        Pomeranian juice
                                                     </h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/d1 (6).jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">Lemon juice</h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">
+                                                        Lemon juice</h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/d1 (7).jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">Peach juice </h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">
+                                                        Peach juice </h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/drinks_1.jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">Lemon juice</h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">
+                                                        Lemon juice</h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
@@ -611,126 +650,158 @@
                         </div>
                         <div class="tab-pane container fade" id="menu2">
                             <div class="card_product d-flex flex-wrap justify-content-around align-content-around">
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/cake_1.jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">Chocolate cream</h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">
+                                                        Chocolate cream</h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/cake_2.jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">Sweet cream</h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">
+                                                        Sweet cream</h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/cake_3.jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">cake with icing</h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">cake
+                                                        with icing</h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/cake_4.jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">Meringues sweet</h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">
+                                                        Meringues sweet</h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/cake_5.jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">vanilla cake</h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">
+                                                        vanilla cake</h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/cake_6.jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">strawberry cake</h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">
+                                                        strawberry cake</h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/cake_7.jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">bundt cake</h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">
+                                                        bundt cake</h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card mb-3" style="max-width: 250px;">
+                                <div class="card mb-3 food-card" style="max-width: 250px;">
                                     <img src="./image/cake_8.jpg" alt="" class="card-img-top">
                                     <div class="card-body">
                                         <div class="card-title">
                                             <div class="card-text mb-2">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">chocolate cake</h4>
-                                                    <span class="badge bg-danger">500 L.E</span>
+                                                    <h4 class="card-title text-capitalize" style="font-size: 18px;">
+                                                        chocolate cake</h4>
+                                                    <span class="badge bg-danger price-tag">500 L.E</span>
                                                 </div>
                                             </div>
-                                            <p>Some Example Some Example Text</p><a href="#" class="btn btn-danger btn-sm d-block">Shop</a>
+                                            <p>Some Example Some Example Text</p><a href="#"
+                                                class="btn btn-danger btn-sm d-block">Shop</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
             </div>
         </section>
     </main>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <h3 class="mb-4">Urban Bite</h3>
+            <p>نقدم لكم أطيب المأكولات والمشروبات بأعلى معايير الجودة</p>
+            <div class="social-icons mb-4">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p>&copy; 2023 Urban Bite. جميع الحقوق محفوظة</p>
+        </div>
+    </footer>
+
     <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="./js/index.js"></script>
 </body>
 
 </html>
