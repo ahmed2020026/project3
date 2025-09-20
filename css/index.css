@@ -12,7 +12,9 @@
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
 }
-
+html{
+    overflow-x: hidden;
+}
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 80px;
